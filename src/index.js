@@ -38,6 +38,6 @@ const fakeMovies = [
 server.get("/movies", (req, res) => {
   res.status(200).json({
     success: true,
-    movie: fakeMovies,
+    movies: fakeMovies,
   });
 });
