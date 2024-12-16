@@ -60,3 +60,11 @@ server.get("/api/movies", (req, res) => {
     movies: moviesResult,
   });
 });
+
+
+server.get('/movie/:id', async(req, res) => { 
+
+  const connection = await getDBConnection();
+console.log()
+
+ });
